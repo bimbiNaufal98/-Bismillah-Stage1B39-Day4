@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Selamat Datang Day4 dan Day5</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar-top-left">
+            <img src="https://dumbways.id/assets/images/brandred.png" alt="logo Dumbways.id">
+            <ul>
+                <li>
+                    <a href="index.html" title="Menuju ke halaman utama"><b>Home</b></a>
+                </li>
+                <li>
+                    <a href="myproject.html">My Project</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-top-right">
+            <a href="contact.html" title="Menuju ke halaman contact Me">Contact Me</a>
+        </div>
+    </nav>
+    <div>
+        <form class="form-submit">
+            <div class="judul">GET IN TOUCH</div>
+            <div>
+                <label for="input-name">Name</label>
+                <input id="input-name" type="text">
+            </div>
+            <div>
+                <label for="input-email">Email</label>
+                <input id="input-email" type="email">
+            </div>
+            <div>
+                <label for="input-phonenumber">Phone Number</label>
+                <input id="input-phonenumber" type="number">
+            </div>
+            <div>
+                <label for="input-select">Subject</label>
+                <select id="input-select">
+                    <option value=""></option>
+                    <option value="Fullstack-WebDev">Fullstack WebDev</option>
+                    <option value="Backend-WebDev ">Backend WebDev</option>
+                    <option value="Frontend-WebDev">Frontend WebDev</option>
+                </select>
+            </div>
+            <div>
+                <label for="input-message">Your Message</label>
+                <textarea id="input-message"></textarea>
+            </div>
+            <button type="button" onclick="submitData()">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="contact.js"></script>
+</html>
